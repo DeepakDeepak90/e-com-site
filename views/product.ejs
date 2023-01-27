@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body onload="deepak()">
+    <% if (id) { %>
+        <script>
+           var prId = "<%= id %>";            
+        </script>
+   <% } %>
+   
+    <div class="navbar"></div>
+
+    <div class="product-details">
+        
+        <div class="image-slider">
+            <div class="product-images">
+                <img id="prImg"  src="<%=result.imgsrc[0]%>" class="active" alt="">
+                <img id="prImgg" src="<%=result.imgsrc[1]%>" alt="">
+                <img id="prImggg" src="<%=result.imgsrc[2]%>" alt="">
+                <img id="prImgggg" src="<%=result.imgsrc[3]%>" alt="">
+                
+            </div>
+        </div>
+        <div class="details">
+            <h2 class="brand-product-details">Calvine cline</h2>
+            <p class="about-dress">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, ducimus.</p>
+            <section class="price-of-details">
+            <section class="product-price">Rs 900/-</section>
+            <section class="product-actual-price">Rs 1800/-</section>
+            <section class="product-price-discount">( 50% Off )</section>
+            </section>
+
+            <p class="sizes">Select Size</p>
+            <input type="radio" name="size" value="s" hidden id="s-size">
+            <label for="s-size" class="size-radio-btn">S</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-btn">M</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l-size" class="size-radio-btn">L</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-btn">XL</label>
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-btn">XXL</label>
+            <input type="radio" name="size" value="xxxl" hidden id="xxxl-size">
+            <label for="xxxl-size" class="size-radio-btn">XXXL</label>
+            <!-- <input type="radio" name="size" value="xxxxl" hidden id="xxxxl-size">
+            <label for="xxxxl-size" class="size-radio-btn">xxxxl</label> -->
+            <div class="btn-group">
+            <button class="btn-add"  onclick="addtocart('<%=id%>')">Add To Cart</button>
+            <button class="btn-add">Add To Wishlist</button>
+        </div>
+        </div>
+        
+    </div>
+     <div class="product-dis"> <h2 class="descr-hd">Discription</h2>
+        <h5 class="dis-detials">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum tenetur sunt iusto fugiat corrupti et sed consectetur deserunt odio, esse alias dolorum vitae eius ipsa, commodi voluptatem. Rem consequuntur sequi facilis, fugit maxime rerum voluptatem laudantium non quia! Temporibus, possimus eveniet nemo, dolorum natus eligendi labore aut hic amet inventore minus error at quae cumque? Fugiat, ut, repudiandae quae commodi alias inventore, consectetur iusto esse porro ad ratione itaque laboriosam veniam omnis. Nobis dolorum optio asperiores dolorem fugit omnis, explicabo quas unde, dolores laudantium neque consectetur molestias blanditiis, dolore nihil assumenda odio sit quod cupiditate ex illo placeat maxime deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae molestiae sed animi consectetur fuga minus eveniet deleniti eligendi voluptate. Sunt libero fugiat officia! Odio laboriosam facere veritatis necessitatibus dolore quos a, dolor et pariatur voluptatibus modi tempore asperiores voluptatem minima fuga, assumenda expedita repellendus rerum quod tempora ut fugiat quibusdam. Ducimus laudantium a eligendi assumenda labore quasi. Est, adipisci. Voluptatem, alias? Distinctio magni numquam temporibus blanditiis minima, praesentium, reprehenderit a recusandae porro voluptas incidunt ipsa quae mollitia ea consequuntur sit libero asperiores sint, eos ut obcaecati soluta. Qui odio, labore soluta obcaecati commodi, assumenda error, debitis nemo expedita suscipit laboriosam.</h5>
+     </div>
+     <section class="product">
+        <h2 class="containor-cetogry">Best Selling Saari</h2>
+       <button class="pre-btn"><img src="/images/arroww.png" class="arrow" alt=""></button>
+       <button class="next-btn"><img src="/images/arroww.png" class="arrow" alt=""></button>
+       <a href="" class="a-view-all"><h3 class="view-all">View All</h3></a> 
+       <div class="product-container">
+        <%data.forEach((element)=> {%>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">
+                        50% Off
+                    </span>
+                    <img onclick="singleProduct('<%=element.id%>')" src="<%=element.imgsrc[0]%>" class="product-thumb" alt="">
+                    <button class="wish-list"><img src="/images/heart.png" style="width: 14px" alt=""> Add To
+                        Wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="brand">BRAND</h2>
+                    <p class="discription">A Short Line About This Drees</p>
+                    <h2 class="price"><%=element.price%> <div class="actual-price">Rs 1600/-</h2>
+                </div>
+            </div> 
+            <%})%>  
+        </div>
+    </section>
+    <script >
+  var a=<%-JSON.stringify(result)%>;
+  var show=<%-JSON.stringify(list)%>;
+  var number=<%-JSON.stringify(number)%>
+    </script>
+        
+    <footer class="footer">
+    <script src="/js/navbaar.js"></script>
+    <script src="/js/footer.js"></script>
+    <script src="/js/home.js"></script>
+    <script src="/js/saari.js"></script>
+    <script src="/js/product.js"></script>
+</body>
+</html>

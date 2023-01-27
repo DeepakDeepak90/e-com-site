@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body onload="deepak()">
+    
+    <div class="navbar"></div>
+    <section class="product">
+        <h2 class="containor-cetogry">Best Selling Tradinational</h2>
+       <button class="pre-btn"><img src="/images/arroww.png" class="arrow" alt=""></button>
+       <button class="next-btn"><img src="/images/arroww.png" class="arrow" alt=""></button>
+       <a href="" class="a-view-all"><h3 class="view-all">View All</h3></a> 
+       <div class="product-container">
+        <%data.forEach((element)=> {%>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">
+                        50% Off
+                    </span>
+                    <img onclick="singleProduct('<%=element.id%>')" src="<%=element.imgsrc[0]%>" class="product-thumb" alt="">
+                    <button class="wish-list"><img src="/images/heart.png" style="width: 14px" alt=""> Add To
+                        Wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="brand">BRAND</h2>
+                    <p class="discription">A Short Line About This Drees</p>
+                    <h2 class="price"><%=element.price%> <div class="actual-price">Rs 1600/-</h2>
+                </div>
+            </div> 
+            <%})%>  
+        </div>
+    </section>
+    <div class="collection-of-img">
+        <div class="women-collection">
+              <h2 class="women-heading">Women</h2>
+              <a href=""><img src="/images/navbefoo.jpg" alt="" class="women-img"></a>
+        </div>
+        <div class="men-collection">
+            <h2 class="men-heading">Men</h2>
+            <a href=""><img src="/images/men.jpg" alt="" class="men-img"></a>
+      </div>
+    </div>
+      <div class="acceseries-collection">
+        <h2 class="acessecaries-heading">Accesaries</h2>
+        <a href=""><img src="/images/acceceries.jpg" alt="" class="acessecaries"></a>
+    </div>
+    
+    <footer class="footer">
+    
+    </footer>
+    <script>
+        var show=<%-JSON.stringify(list)%>;
+        var number=<%-JSON.stringify(number)%>
+        // console.log(a);
+        </script>
+    
+    <script src="/js/home.js"></script>
+    <script src="/js/saari.js"></script>
+    <script src="/js/navbaar.js"></script>
+    <script src="/js/product.js"></script>
+    <script src="/js/footer.js"></script>
+</body>
+</html>
