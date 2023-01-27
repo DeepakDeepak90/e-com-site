@@ -110,9 +110,9 @@ app.post("/cart/:id",async(req,res)=>{
         let imgsrc=element.imgsrc;
         let desc=element.desc;
         let price=element.price;
-         const lund=new Udmi({id,imgsrc,price,desc});
+         const newone=new Udmi({id,imgsrc,price,desc});
         //  console.log(element);
-        lund.save();
+        newone.save();
      }
     })
     newdata1.forEach(element=>{
@@ -121,9 +121,9 @@ app.post("/cart/:id",async(req,res)=>{
         let imgsrc=element.imgsrc;
         let desc=element.desc;
         let price=element.price;
-         const lund=new Udmi({id,imgsrc,price,desc});
+         const newone=new Udmi({id,imgsrc,price,desc});
         //  console.log(element);
-        lund.save();
+        newone.save();
      }
     })
     newdata2.forEach(element=>{
@@ -132,9 +132,9 @@ app.post("/cart/:id",async(req,res)=>{
         let imgsrc=element.imgsrc;
         let desc=element.desc;
         let price=element.price;
-         const lund=new Udmi({id,imgsrc,price,desc});
+         const newonw=new Udmi({id,imgsrc,price,desc});
         //  console.log(element);
-        lund.save();
+        newonw.save();
      }
     })
 
