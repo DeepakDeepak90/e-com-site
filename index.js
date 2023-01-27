@@ -14,7 +14,7 @@ app.use(express.static(staticPath));
 
 main().catch(err=>console.log(err));
 async function main() {
-    await mongoose.connect("mongodb://localhost:27017/deepak");
+    await mongoose.connect("mongodb+srv://iam000:iam000@cluster0.tqecyoq.mongodb.net/deepak?retryWrites=true&w=majority");
     console.log("connection succesfull...");
 }
 const deepakSchema=mongoose.Schema({
@@ -29,7 +29,9 @@ const Saari= mongoose.model("Saari",deepakSchema);
 const Tradinational= mongoose.model("Tradinational",deepakSchema);
 app.get("/",async(req,res)=>{
     const data=await Deepu.find();
+    // console.log(data);
     const listofData=await Udmi.find();
+
     let number= listofData.length;
     
     // console.log(listofData);
