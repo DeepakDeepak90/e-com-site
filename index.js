@@ -17,7 +17,7 @@ app.use(express.static(staticPath));
 
 main().catch(err=>console.log(err));
 async function main() {
-    await mongoose.connect("mongodb://localhost:27017/deepak");
+    await mongoose.connect("mongodb+srv://iam000:iam000@cluster0.tqecyoq.mongodb.net/deepak?retryWrites=true&w=majority");
     console.log("connection succesfull...");
 }
 const deepakSchema=mongoose.Schema({
