@@ -95,4 +95,4 @@ var allData;
 //     console.log(id);
 //     fetch(`/cart/${id}`,{method:"post"})
 //     }
-    
+productimage[0].click(); 

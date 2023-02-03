@@ -8,17 +8,61 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div class="navbar"></div>
-    <form action="" class="form-signup">
-        <input type="text" name="name" id="" placeholder="Enter Your Name Here">
-        <input type="email" name="email" id=""  placeholder="Enter Your Email Here">
-        <input type="number" name="number" id=""  placeholder="Enter Your Number Here">
-        <input type="password" name="password" id=""  placeholder="Enter Your Password Here">
-        <div class="sign-log"> <button class="form-reg">Signup</button>
+    <div class="navbaar">
+        <ul class="navbaar-li">
+        <div class="logo">
+        <li class="list" ><img src="/images/logo.png" id="logo" alt=""></li>
+    </div>
+    <div class="toggle-cart">
+    
+    <!-- <div id="formsubmition">
+    <a href="/user">Signup</a>
+    <a href="/login">Login</a>
+    </div>
+     -->
+    <header class="my-cart">
+    <div class="cart-box">
+      <div class="cart-icon">
+      </div>
+      </div>
+      <div class="whole-cart-window " id="myDIV">
+      <div class="cart-wrapper-tot">
+      <div class="cart-wrapper">
+        
+      </div>
+         
+            <a href="/checkout"><div class="checkout">Checkout</div></a>
+            <div class="view-cart">View Cart</div>
+            </div>
+      </div>
+    </header>
+    
+    </div>
+    </ul>
+    </div><hr>
+    <div class="nav-two">
+        <a href="/" class="list-a"><li class="listt">Home</li></a>
+        <a href="/" class="list-a"><li class="listt">Kurti</li></a>
+        <a href="/tradinational" class="list-a"><li class="listt">Tradinational</li></a>
+        <a href="/saari" class="list-a"> <li class="listt">Saari</li></a>
+        <a href="/contact" class="list-a"> <li class="listt">Contact</li></a>
+        </div>
+    <div class="hidding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, perspiciatis saepe, libero, iste unde nobis quia culpa quasi harum dolores ut soluta! Laborum neque dolorem, libero deleniti vel iusto tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsum maiores et rem aliquam. Delectus recusandae modi maxime quis omnis, iure ipsam ad dolore aspernatur laudantium veniam ducimus repellendus necessitatibus minima excepturi, accusamus nihil? Quaerat fuga dolores quam itaque quis quae possimus mollitia placeat totam! Eum ab beatae, perferendis consectetur excepturi tenetur ullam. Illo perspiciatis, sapiente laborum praesentium voluptates beatae provident vel laudantium id eius suscipit possimus consectetur asperiores ipsam deserunt neque dolores atque obcaecati magnam ex, nulla cum? Vel possimus, ipsum qui corporis necessitatibus nesciunt maxime fugiat, cupiditate doloremque deserunt a iure vitae repellendus tenetur! Odio provident doloremque repellendus!</div>
+    <div class="btn">
+    <button class="shop-now">Shop Now</button>
+    </div>
+    <form action="" class="form-signup" method="post">
+        <input type="text" name="name" id="" required placeholder="Enter Your Name Here" pattern="{4}">
+        <input type="email" name="email" id="" required   placeholder="Enter Your Email Here">
+        <input type="number" name="number" id="" required  placeholder="Enter Your Number Here" pattern="{10}">
+        <input type="password" name="password" id="" required placeholder="Enter Your Password Here" >
+        <div class="sign-log"> <button class="form-reg" id="submitme"  type="submit">Signup</button>
         <a href="/login" class="reg-aa">Already have an account <span class="reg-l"> Login</span></a>
     </div>
     </form>
-
+   <script>
+    // var showhide=<%-JSON.stringify(abcd)%>;
+   </script>
     <script src="/js/navbaar.js"></script>
 </body>
 </html>

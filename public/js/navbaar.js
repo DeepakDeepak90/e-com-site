@@ -1,57 +1,67 @@
+// console.log(showhide);
 var addArr=[];
  var prId;
 var result="";
 // console.log(number);
 // let showincart=show[0].imgsrc[0];
-
-const createnav=()=>{
+if(showhide==true){
+  document.getElementById("formsubmition").style.display="none"
+}else{
   
-    let nav=document.querySelector(".navbar");
-    nav.innerHTML=`
-    <div class="navbaar">
-    <ul class="navbaar-li">
-    <div class="logo">
-    <li class="list" ><img src="/images/logo.png" id="logo" alt=""></li>
-</div>
-<input type="text" class="nav-inp"><button class="nav-btn">Search</button>
-<a href="/user"><img src="/images/user.png" class="nav-i" alt=""></li></a>
-<div class="toggle-cart">
-
-<header class="my-cart">
-<div class="cart-box">
-  <div class="cart-icon">
-   <img src="/images/crt.png" class="crt-logo" alt="" onclick="myFunction()"><p class="cart-counting">${number}</p>
-  </div>
-  </div>
-  <div class="whole-cart-window " id="myDIV">
-  <div class="cart-wrapper-tot">
-  <div class="cart-wrapper">
-    
-  </div>
-     
-        <a href="/checkout"><div class="checkout">Checkout</div></a>
-        <div class="view-cart">View Cart</div>
-        </div>
-  </div>
-</header>
-
-</div>
-</ul>
-</div><hr>
-<div class="nav-two">
-    <a href="/" class="list-a"><li class="listt">Home</li></a>
-    <a href="/" class="list-a"><li class="listt">Kurti</li></a>
-    <a href="/tradinational" class="list-a"><li class="listt">Tradinational</li></a>
-    <a href="/saari" class="list-a"> <li class="listt">Saari</li></a>
-    <a href="/contact" class="list-a"> <li class="listt">Contact</li></a>
-    </div>
-<div class="hidding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, perspiciatis saepe, libero, iste unde nobis quia culpa quasi harum dolores ut soluta! Laborum neque dolorem, libero deleniti vel iusto tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsum maiores et rem aliquam. Delectus recusandae modi maxime quis omnis, iure ipsam ad dolore aspernatur laudantium veniam ducimus repellendus necessitatibus minima excepturi, accusamus nihil? Quaerat fuga dolores quam itaque quis quae possimus mollitia placeat totam! Eum ab beatae, perferendis consectetur excepturi tenetur ullam. Illo perspiciatis, sapiente laborum praesentium voluptates beatae provident vel laudantium id eius suscipit possimus consectetur asperiores ipsam deserunt neque dolores atque obcaecati magnam ex, nulla cum? Vel possimus, ipsum qui corporis necessitatibus nesciunt maxime fugiat, cupiditate doloremque deserunt a iure vitae repellendus tenetur! Odio provident doloremque repellendus!</div>
-<div class="btn">
-<button class="shop-now">Shop Now</button>
-</div>    
-`;
 }
-createnav();
+// const createnav=()=>{
+  
+//     let nav=document.querySelector(".navbar");
+//     nav.innerHTML=`
+//     <div class="navbaar">
+//     <ul class="navbaar-li">
+//     <div class="logo">
+//     <li class="list" ><img src="/images/logo.png" id="logo" alt=""></li>
+// </div>
+// <input type="text" class="nav-inp"><button class="nav-btn">Search</button>
+// <a href="/user"><img src="/images/user.png" class="nav-i" alt=""></li></a>
+// <div class="toggle-cart">
+
+// <div id="formsubmition">
+// <a href="/user">Signup</a>
+// <a href="/login">Login</a>
+// </div>
+
+// <header class="my-cart">
+// <div class="cart-box">
+//   <div class="cart-icon">
+//    <img src="/images/crt.png" class="crt-logo" alt="" onclick="myFunction()"><p class="cart-counting">${number}</p>
+//   </div>
+//   </div>
+//   <div class="whole-cart-window " id="myDIV">
+//   <div class="cart-wrapper-tot">
+//   <div class="cart-wrapper">
+    
+//   </div>
+     
+//         <a href="/checkout"><div class="checkout">Checkout</div></a>
+//         <div class="view-cart">View Cart</div>
+//         </div>
+//   </div>
+// </header>
+
+// </div>
+// </ul>
+// </div><hr>
+// <div class="nav-two">
+//     <a href="/" class="list-a"><li class="listt">Home</li></a>
+//     <a href="/" class="list-a"><li class="listt">Kurti</li></a>
+//     <a href="/tradinational" class="list-a"><li class="listt">Tradinational</li></a>
+//     <a href="/saari" class="list-a"> <li class="listt">Saari</li></a>
+//     <a href="/contact" class="list-a"> <li class="listt">Contact</li></a>
+//     </div>
+// <div class="hidding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, perspiciatis saepe, libero, iste unde nobis quia culpa quasi harum dolores ut soluta! Laborum neque dolorem, libero deleniti vel iusto tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsum maiores et rem aliquam. Delectus recusandae modi maxime quis omnis, iure ipsam ad dolore aspernatur laudantium veniam ducimus repellendus necessitatibus minima excepturi, accusamus nihil? Quaerat fuga dolores quam itaque quis quae possimus mollitia placeat totam! Eum ab beatae, perferendis consectetur excepturi tenetur ullam. Illo perspiciatis, sapiente laborum praesentium voluptates beatae provident vel laudantium id eius suscipit possimus consectetur asperiores ipsam deserunt neque dolores atque obcaecati magnam ex, nulla cum? Vel possimus, ipsum qui corporis necessitatibus nesciunt maxime fugiat, cupiditate doloremque deserunt a iure vitae repellendus tenetur! Odio provident doloremque repellendus!</div>
+// <div class="btn">
+// <button class="shop-now">Shop Now</button>
+// </div>    
+// `;
+// }
+// createnav();
 // console.log(a);
 function myFunction() {
     var x = document.getElementById("myDIV");
@@ -114,6 +124,9 @@ function myFunction() {
     function addtocart(id){
         console.log(id);
         fetch(`/cart/${id}`,{method:"post"})
-        window.location.reload()
-        }
-    
+        window.location.reload();
+        
+        } 
+        // function showhidee(){
+         
+        // }
