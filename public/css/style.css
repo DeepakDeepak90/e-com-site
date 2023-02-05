@@ -864,8 +864,8 @@ opacity: 0.6;
   /* border: 5px solid blue; */
   background-color: rgb(232, 235, 235);
   position: absolute;
-  right: 0px;
-  top: 42px;
+  right: 4px;
+  top: 57px;
   width: 350px;
 display: none;  
 }

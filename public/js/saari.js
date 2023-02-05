@@ -9,7 +9,7 @@ function deepak(){
                   
                            <img src="${showincart}" class="cart-img"> 
                            <div class="details">
-                               <h5>${e.lah}</h5>
+                               <h5>${e.desc}</h5>
                                 <span class="quantity">Quantity: 1</span>
                                    <span class="price">Price: ${e.price}</span>
                                
