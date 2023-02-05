@@ -1,4 +1,4 @@
-   
+
 function deepak(){
     show.forEach(e=>{
         var id=e.id
@@ -9,13 +9,12 @@ function deepak(){
                   
                            <img src="${showincart}" class="cart-img"> 
                            <div class="details">
-                               <h3>Item Name</h3>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                               <h5>Item Name</h5>
                                 <span class="quantity">Quantity: 1</span>
                                    <span class="price">Price: ${e.price}</span>
-                               </p>
+                               
                            </div>
-                           <div class="cancel"><button class="cross-b" onclick="idremove(${id})"><img src="../images/cros.png" class="cros" alt=""></button></div>
+                           <div class="cancel"><button class="cross-b" onclick="idremove(${id})"><img src="../images/del.png" class="cros" alt=""></button></div>
                         </div>
                 <hr>
                     `

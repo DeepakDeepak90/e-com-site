@@ -6,51 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    
 </head>
 <body>
-    <div class="navbaar">
-        <ul class="navbaar-li">
-        <div class="logo">
-        <li class="list" ><img src="/images/logo.png" id="logo" alt=""></li>
-    </div>
-    <div class="toggle-cart">
-    
-    <!-- <div id="formsubmition">
-    <a href="/user">Signup</a>
-    <a href="/login">Login</a>
-    </div>
-     -->
-    <header class="my-cart">
-    <div class="cart-box">
-      <div class="cart-icon">
-      </div>
-      </div>
-      <div class="whole-cart-window " id="myDIV">
-      <div class="cart-wrapper-tot">
-      <div class="cart-wrapper">
-        
-      </div>
-         
-            <a href="/checkout"><div class="checkout">Checkout</div></a>
-            <div class="view-cart">View Cart</div>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">𝓃𝑒𝓌 𝓅𝒶𝓉𝓉𝑒𝓇𝓃 𝓀𝓊𝓇𝓉𝒾</a>
+          
+            <div class="whole-cart-window " id="myDIV">
+                <div class="cart-wrapper-tot">
+                    <div class="cart-wrapper">
+                        
+                    </div>
+                    
+                    <a href="/checkout"><div class="checkout">Checkout</div></a>
+                    
+                </div>
             </div>
-      </div>
-    </header>
-    
-    </div>
-    </ul>
-    </div><hr>
-    <div class="nav-two">
-        <a href="/" class="list-a"><li class="listt">Home</li></a>
-        <a href="/" class="list-a"><li class="listt">Kurti</li></a>
-        <a href="/tradinational" class="list-a"><li class="listt">Tradinational</li></a>
-        <a href="/saari" class="list-a"> <li class="listt">Saari</li></a>
-        <a href="/contact" class="list-a"> <li class="listt">Contact</li></a>
+          <!-- <img src="/images/us.png" class="bsta" alt=""> -->
         </div>
-    <div class="hidding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, perspiciatis saepe, libero, iste unde nobis quia culpa quasi harum dolores ut soluta! Laborum neque dolorem, libero deleniti vel iusto tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsum maiores et rem aliquam. Delectus recusandae modi maxime quis omnis, iure ipsam ad dolore aspernatur laudantium veniam ducimus repellendus necessitatibus minima excepturi,</div>
-    <div class="btn">
-    <button class="shop-now">Shop Now</button>
-    </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">𝓃𝑒𝓌 𝓅𝒶𝓉𝓉𝑒𝓇𝓃 𝓀𝓊𝓇𝓉𝒾</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cetogry
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/">Kurtie</a></li>
+
+                    <li><a class="dropdown-item" href="/tradinational">Tradinational</a></li>
+                    <li><a class="dropdown-item" href="/saari">Saari</a></li>
+                    
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+        </div>
+      </nav>
+
+     
+
     <form action="" class="form-signup" method="post">
         <input type="text" name="name" id="" required placeholder="Enter Your Name Here" pattern="{4}">
         <input type="email" name="email" id="" required   placeholder="Enter Your Email Here">
@@ -63,6 +77,8 @@
    <script>
     // var showhide=<%-JSON.stringify(abcd)%>;
    </script>
+   <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/navbaar.js"></script>
+    <script src="/js/product.js"></script>
 </body>
 </html>

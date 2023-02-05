@@ -75,11 +75,11 @@ app.get("/tradinational",async(req,res)=>{
       const listof=await Cart.find();
       let number= listof.length;
     //   res.render("saari",{number,data:data,list:listofData});
-      res.render("tradinational",{number,data:data,list:listof});
+      res.render("tradinational",{abcd,number,data:data,list:listof});
       
   }else{
 //   res.render("saari",{number,data:data,list:listofData});
-  res.render("tradinational",{number,data:data,list:listofData});
+  res.render("tradinational",{abcd,number,data:data,list:listofData});
   }
 })
 app.get("/saari",async(req,res)=>{
@@ -93,10 +93,10 @@ app.get("/saari",async(req,res)=>{
           const Cart=mongoose.model(dd,deepakSchema);
         const listof=await Cart.find();
         let number= listof.length;
-        res.render("saari",{number,data:data,list:listof});
+        res.render("saari",{abcd,number,data:data,list:listof});
         
     }else{
-    res.render("saari",{number,data:data,list:listofData});
+    res.render("saari",{abcd,number,data:data,list:listofData});
     }
 })
 app.get("/checkout",(req,res)=>{
@@ -132,12 +132,12 @@ app.get("/product/:id/",async(req,res)=>{
         const Cart=mongoose.model(dd,deepakSchema);
       const listof=await Cart.find();
       let number= listof.length;
-      res.render("product",{number,id:id,result:result,list:listof,data:data0});
+      res.render("product",{abcd,number,id:id,result:result,list:listof,data:data0});
     //   res.render("s",{number,data:data,list:listof});
       
   }else{
 //   res.render("saari",{number,data:data,list:listofData});
-res.render("product",{number,id:id,result:result,list:listofData,data:data0});
+res.render("product",{abcd,number,id:id,result:result,list:listofData,data:data0});
   }
 })
 app.get("/product",async(req,res)=>{
@@ -272,7 +272,7 @@ app.post("/user",async(req,res)=>{
     let namebig=name.charAt(0).toUpperCase()+name.slice(1);
     // let dd;
     dd=namebig;
-    
+    console.log(abcd);
     // const namebig= mongoose.model("Saari",deepakSchema); 
   if(matchdata.length==0){
       data.save();
@@ -289,6 +289,15 @@ app.post("/user",async(req,res)=>{
   }
      // console.log(listofData);
      
+})
+app.get("/logout",async(req,res)=>{
+    abcd=false;
+    const data=await Deepu.find();
+    // console.log(data);
+    const listofData=await Udmi.find();
+    // console.log(abcd);
+    let number= listofData.length;    
+  res.redirect("/");
 })
 app.post("/login",async(req,res)=>{
     const email=req.body.email;
