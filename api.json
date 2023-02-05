@@ -6,8 +6,8 @@
       "/product/kp (3).jpg",
       "/product/kp (4).jpg"
     ],
-    "desc": "",
-    "imgtitel":" Festival Special, Bright color neaver go out of style",
+    
+    "desc":" Festival Special, Bright color neaver go out of style",
     "price": "900",
     "id": 0
   },
@@ -18,7 +18,8 @@
       "/product/kp1 (3).jpg",
       "/product/kp1 (4).jpg"
     ],   
-    "desc": "","imgtitel":"captivating and elegant choice of anarkali attire of all occassions",
+    
+    "desc":"captivating and elegant choice of anarkali attire of all occassions",
     "price": "900",
     "id": 1
   },
@@ -29,7 +30,8 @@
       "/product/kp2 (3).jpg",
       "/product/kp2 (3).jpg"
     ],
-    "desc": "","imgtitel":"The pink chandri silk nyra suit set of beauty decorated",
+    
+    "desc":"The pink chandri silk nyra suit set of beauty decorated",
     "price": "910",
     "id": 2
   },
@@ -40,7 +42,8 @@
       "/product/kp3 (3).jpg",
       "/product/kp3 (4).jpg"
     ],
-    "desc": "","imgtitel":"A line nyra valvet suit  if u are ready to shine throught at the next occassion",
+    
+    "desc":"A line nyra valvet suit  if u are ready to shine throught at the next occassion",
     "price": "710",
     "id": 3
   },
@@ -51,415 +54,453 @@
       "/product/kp4 (3).jpg",
       "/product/kp4 (4).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "999",
     "id": 4
   },
   {
     "imgsrc": [
-      "/newpros/kp5 (1).jpg",
-      "/newpros/kp5 (2).jpg",
-      "/newpros/kp5 (3).jpg",
-      "/newpros/kp5 (4).jpg"
+      "/newpros/add (1).jpg",
+      "/newpros/add (2).jpg",
+      "/newpros/add (3).jpg",
+      "/newpros/add (4).jpg"
     ],
-    "desc": "","imgtitel":"A line nyra valvet suit  if u are ready to shine throught at the next occassion",
+    
+    "desc":"A line nyra valvet suit  if u are ready to shine throught at the next occassion",
     "price": "1099",
     "id": 5
   },
   {
     "imgsrc": [
-      "/newpros/dd (5).jpg",
-      "/newpros/dd (6).jpg",
-      "/newpros/dd (7).jpg",
-      "/newpros/dd (8).jpg"
+      "/newpros/add (5).jpg",
+      "/newpros/add (6).jpg",
+      "/newpros/add (7).jpg",
+      "/newpros/add (8).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "799",
     "id": 6
   },
   {
     "imgsrc": [
-      "/newpros/dd (9).jpg",
-      "/newpros/dd (10).jpg",
-      "/newpros/dd (11).jpg",
-      "/newpros/dd (12).jpg"
+      "/newpros/add (9).jpg",
+      "/newpros/add (10).jpg",
+      "/newpros/add (11).jpg",
+      "/newpros/add (12).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "799",
     "id": 7
   },
   {
     "imgsrc": [
-      "/newpros/dd (13).jpg",
-      "/newpros/dd (14).jpg",
-      "/newpros/dd (15).jpg",
-      "/newpros/dd (16).jpg"
+      "/newpros/add (13).jpg",
+      "/newpros/add (14).jpg",
+      "/newpros/add (15).jpg",
+      "/newpros/add (16).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "759",
     "id": 8
   },
   {
     "imgsrc": [
-      "/newpros/dd (17).jpg",
-      "/newpros/dd (18).jpg",
-      "/newpros/dd (19).jpg",
-      "/newpros/dd (20).jpg"
+      "/newpros/add (17).jpg",
+      "/newpros/add (18).jpg",
+      "/newpros/add (19).jpg",
+      "/newpros/add (20).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "859",
     "id": 9
   },
   {
     "imgsrc": [
-      "/newpros/dd (21).jpg",
-      "/newpros/dd (22).jpg",
-      "/newpros/dd (23).jpg",
-      "/newpros/dd (24).jpg"
+      "/newpros/add (21).jpg",
+      "/newpros/add (22).jpg",
+      "/newpros/add (23).jpg",
+      "/newpros/add (24).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "809",
     "id": 10
   },
   {
     "imgsrc": [
-      "/newpros/dd (25).jpg",
-      "/newpros/dd (26).jpg",
-      "/newpros/dd (27).jpg",
-      "/newpros/dd (28).jpg"
+      "/newpros/add (25).jpg",
+      "/newpros/add (26).jpg",
+      "/newpros/add (27).jpg",
+      "/newpros/add (28).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "879",
     "id": 11
   },
   {
     "imgsrc": [
-      "/newpros/dd (29).jpg",
-      "/newpros/dd (30).jpg",
-      "/newpros/dd (31).jpg",
-      "/newpros/dd (32).jpg"
+      "/newpros/add (29).jpg",
+      "/newpros/add (30).jpg",
+      "/newpros/add (31).jpg",
+      "/newpros/add (32).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "879",
     "id": 12
   },
   {
     "imgsrc": [
-      "/newpros/dd (33).jpg",
-      "/newpros/dd (34).jpg",
-      "/newpros/dd (35).jpg",
-      "/newpros/dd (36).jpg"
+      "/newpros/add (33).jpg",
+      "/newpros/add (34).jpg",
+      "/newpros/add (35).jpg",
+      "/newpros/add (36).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "879",
     "id": 13
   },
   {
     "imgsrc": [
-      "/newpros/dd (37).jpg",
-      "/newpros/dd (38).jpg",
-      "/newpros/dd (39).jpg",
-      "/newpros/dd (40).jpg"
+      "/newpros/add (37).jpg",
+      "/newpros/add (38).jpg",
+      "/newpros/add (39).jpg",
+      "/newpros/add (40).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1100",
     "id": 14
   },
   {
     "imgsrc": [
-      "/newpros/dd (41).jpg",
-      "/newpros/dd (42).jpg",
-      "/newpros/dd (43).jpg",
-      "/newpros/dd (44).jpg"
+      "/newpros/add (41).jpg",
+      "/newpros/add (42).jpg",
+      "/newpros/add (43).jpg",
+      "/newpros/add (44).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1109",
     "id": 15
   },
   {
     "imgsrc": [
-      "/newpros/dd (45).jpg",
-      "/newpros/dd (46).jpg",
-      "/newpros/dd (47).jpg",
-      "/newpros/dd (48).jpg"
+      "/newpros/add (45).jpg",
+      "/newpros/add (46).jpg",
+      "/newpros/add (47).jpg",
+      "/newpros/add (48).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1109",
     "id": 16
   },
   {
     "imgsrc": [
-      "/newpros/dd (49).jpg",
-      "/newpros/dd (50).jpg",
-      "/newpros/dd (51).jpg",
-      "/newpros/dd (52).jpg"
+      "/newpros/add (49).jpg",
+      "/newpros/add (50).jpg",
+      "/newpros/add (51).jpg",
+      "/newpros/add (52).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1009",
     "id": 17
   },
 
   {
     "imgsrc": [
-      "/newpros/dd (53).jpg",
-      "/newpros/dd (54).jpg",
-      "/newpros/dd (55).jpg",
-      "/newpros/dd (56).jpg"
+      "/newpros/add (53).jpg",
+      "/newpros/add (54).jpg",
+      "/newpros/add (55).jpg",
+      "/newpros/add (56).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1006",
     "id": 18
   },
   {
     "imgsrc": [
-      "/newpros/dd (57).jpg",
-      "/newpros/dd (58).jpg",
-      "/newpros/dd (59).jpg",
-      "/newpros/dd (60).jpg"
+      "/newpros/add (57).jpg",
+      "/newpros/add (58).jpg",
+      "/newpros/add (59).jpg",
+      "/newpros/add (60).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1006",
     "id": 19
   },
   {
     "imgsrc": [
-      "/newpros/dd (61).jpg",
-      "/newpros/dd (62).jpg",
-      "/newpros/dd (63).jpg",
-      "/newpros/dd (64).jpg"
+      "/newpros/add (61).jpg",
+      "/newpros/add (62).jpg",
+      "/newpros/add (63).jpg",
+      "/newpros/add (64).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1000",
     "id": 20
   },
   {
     "imgsrc": [
-      "/newpros/dd (65).jpg",
-      "/newpros/dd (66).jpg",
-      "/newpros/dd (67).jpg",
-      "/newpros/dd (68).jpg"
+      "/newpros/add (65).jpg",
+      "/newpros/add (66).jpg",
+      "/newpros/add (67).jpg",
+      "/newpros/add (68).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1009",
     "id": 21
   },
   {
     "imgsrc": [
-      "/newpros/dd (69).jpg",
-      "/newpros/dd (70).jpg",
-      "/newpros/dd (71).jpg",
-      "/newpros/dd (72).jpg"
+      "/newpros/add (69).jpg",
+      "/newpros/add (70).jpg",
+      "/newpros/add (71).jpg",
+      "/newpros/add (72).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1009",
     "id": 22
   },
   {
     "imgsrc": [
-      "/newpros/dd (73).jpg",
-      "/newpros/dd (74).jpg",
-      "/newpros/dd (75).jpg",
-      "/newpros/dd (76).jpg"
+      "/newpros/add (73).jpg",
+      "/newpros/add (74).jpg",
+      "/newpros/add (75).jpg",
+      "/newpros/add (76).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "799",
     "id": 23
   },
   {
     "imgsrc": [
-      "/newpros/dd (77).jpg",
-      "/newpros/dd (78).jpg",
-      "/newpros/dd (79).jpg",
-      "/newpros/dd (80).jpg"
+      "/newpros/add (77).jpg",
+      "/newpros/add (78).jpg",
+      "/newpros/add (79).jpg",
+      "/newpros/add (80).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "799",
     "id": 24
   },
   {
     "imgsrc": [
-      "/newpros/dd (81).jpg",
-      "/newpros/dd (82).jpg",
-      "/newpros/dd (83).jpg",
-      "/newpros/dd (84).jpg"
+      "/newpros/add (81).jpg",
+      "/newpros/add (82).jpg",
+      "/newpros/add (83).jpg",
+      "/newpros/add (84).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "759",
     "id": 25
   },
   {
     "imgsrc": [
-      "/newpros/dd (85).jpg",
-      "/newpros/dd (86).jpg",
-      "/newpros/dd (87).jpg",
-      "/newpros/dd (88).jpg"
+      "/newpros/add (85).jpg",
+      "/newpros/add (86).jpg",
+      "/newpros/add (87).jpg",
+      "/newpros/add (88).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "759",
     "id": 26
   },
   {
     "imgsrc": [
-      "/newpros/dd (89).jpg",
-      "/newpros/dd (90).jpg",
-      "/newpros/dd (91).jpg",
-      "/newpros/dd (92).jpg"
+      "/newpros/add (89).jpg",
+      "/newpros/add (90).jpg",
+      "/newpros/add (91).jpg",
+      "/newpros/add (92).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "769",
     "id": 27
   },
   {
     "imgsrc": [
-      "/newpros/dd (93).jpg",
-      "/newpros/dd (94).jpg",
-      "/newpros/dd (95).jpg",
-      "/newpros/dd (96).jpg"
+      "/newpros/add (93).jpg",
+      "/newpros/add (94).jpg",
+      "/newpros/add (95).jpg",
+      "/newpros/add (96).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "779",
     "id": 28
   },
   {
     "imgsrc": [
-      "/newpros/dd (97).jpg",
-      "/newpros/dd (98).jpg",
-      "/newpros/dd (99).jpg",
-      "/newpros/dd (100).jpg"
+      "/newpros/add (97).jpg",
+      "/newpros/add (98).jpg",
+      "/newpros/add (99).jpg",
+      "/newpros/add (100).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "779",
     "id": 29
   },
   {
     "imgsrc": [
-      "/newpros/dd (101).jpg",
-      "/newpros/dd (102).jpg",
-      "/newpros/dd (103).jpg",
-      "/newpros/dd (104).jpg"
+      "/newpros/add (101).jpg",
+      "/newpros/add (102).jpg",
+      "/newpros/add (103).jpg",
+      "/newpros/add (104).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "879",
     "id": 30
   },
   {
     "imgsrc": [
-      "/newpros/dd (105).jpg",
-      "/newpros/dd (106).jpg",
-      "/newpros/dd (107).jpg",
-      "/newpros/dd (108).jpg"
+      "/newpros/add (105).jpg",
+      "/newpros/add (106).jpg",
+      "/newpros/add (107).jpg",
+      "/newpros/add (108).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "859",
     "id": 31
   },
   {
     "imgsrc": [
     
-      "/newpros/dd (109).jpg",
-      "/newpros/dd (110).jpg",
-      "/newpros/dd (111).jpg",
-      "/newpros/dd (112).jpg"],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+      "/newpros/add (109).jpg",
+      "/newpros/add (110).jpg",
+      "/newpros/add (111).jpg",
+      "/newpros/add (112).jpg"],
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "859",
     "id": 32
   },
   {
     "imgsrc": [
-      "/newpros/dd (113).jpg",
-      "/newpros/dd (114).jpg",
-      "/newpros/dd (115).jpg",
-      "/newpros/dd (116).jpg"
+      "/newpros/add (113).jpg",
+      "/newpros/add (114).jpg",
+      "/newpros/add (115).jpg",
+      "/newpros/add (116).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "999",
     "id": 33
   },
   {
     "imgsrc": [
-      "/newpros/dd (117).jpg",
-      "/newpros/dd (118).jpg",
-      "/newpros/dd (119).jpg",
-      "/newpros/dd (120).jpg"
+      "/newpros/add (117).jpg",
+      "/newpros/add (118).jpg",
+      "/newpros/add (119).jpg",
+      "/newpros/add (120).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1099",
     "id": 34
   },
   {
     "imgsrc": [
-      "/newpros/dd (121).jpg",
-      "/newpros/dd (122).jpg",
-      "/newpros/dd (123).jpg",
-      "/newpros/dd (124).jpg"
+      "/newpros/add (121).jpg",
+      "/newpros/add (122).jpg",
+      "/newpros/add (123).jpg",
+      "/newpros/add (124).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1009",
     "id": 35
   },
   {
     "imgsrc": [
-      "/newpros/dd (125).jpg",
-      "/newpros/dd (126).jpg",
-      "/newpros/dd (127).jpg",
-      "/newpros/dd (128).jpg"
+      "/newpros/add (125).jpg",
+      "/newpros/add (126).jpg",
+      "/newpros/add (127).jpg",
+      "/newpros/add (128).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "1009",
     "id": 36
   },
   {
     "imgsrc": [
-      "/newpros/dd (129).jpg",
-      "/newpros/dd (130).jpg",
-      "/newpros/dd (131).jpg",
-      "/newpros/dd (132).jpg"
+      "/newpros/add (129).jpg",
+      "/newpros/add (130).jpg",
+      "/newpros/add (131).jpg",
+      "/newpros/add (132).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "905",
     "id": 37
   },
   {
     "imgsrc": [
-      "/newpros/dd (133).jpg",
-      "/newpros/dd (134).jpg",
-      "/newpros/dd (135).jpg",
-      "/newpros/dd (136).jpg"
+      "/newpros/add (133).jpg",
+      "/newpros/add (134).jpg",
+      "/newpros/add (135).jpg",
+      "/newpros/add (136).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "905",
     "id": 38
   },
   {
     "imgsrc": [
-      "/newpros/dd (137).jpg",
-      "/newpros/dd (138).jpg",
-      "/newpros/dd (139).jpg",
-      "/newpros/dd (140).jpg"
+      "/newpros/add (137).jpg",
+      "/newpros/add (138).jpg",
+      "/newpros/add (139).jpg",
+      "/newpros/add (140).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "900",
     "id": 39
   },
   {
     "imgsrc": [
-      "/newpros/dd (141).jpg",
-      "/newpros/dd (142).jpg",
-      "/newpros/dd (143).jpg",
-      "/newpros/dd (144).jpg"
+      "/newpros/add (141).jpg",
+      "/newpros/add (142).jpg",
+      "/newpros/add (143).jpg",
+      "/newpros/add (144).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "800",
     "id": 40
   },
   {
     "imgsrc": [
-      "/newpros/dd (145).jpg",
-      "/newpros/dd (146).jpg",
-      "/newpros/dd (147).jpg",
-      "/newpros/dd (148).jpg"
+      "/newpros/add (145).jpg",
+      "/newpros/add (146).jpg",
+      "/newpros/add (147).jpg",
+      "/newpros/add (148).jpg"
     ],
-    "desc": "","imgtitel":"This suit will be great pick of any and every occasion",
+    
+    "desc":"This suit will be great pick of any and every occasion",
     "price": "800",
     "id": 41
   }

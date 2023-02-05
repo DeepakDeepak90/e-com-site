@@ -40,7 +40,9 @@ app.get("/",async(req,res)=>{
     const data=await Deepu.find();
     // console.log(data);
     const listofData=await Udmi.find();
-    
+    data.forEach(e=>{
+        // console.log(e.desc)
+     })
     let number= listofData.length;    
     // console.log(listofData);
     if (abcd==true) {
