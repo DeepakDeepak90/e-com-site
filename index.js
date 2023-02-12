@@ -32,19 +32,21 @@ password:String
 });
 const Deepu= mongoose.model("Deepu",deepakSchema);
 const Udmi= mongoose.model("Udmi",deepakSchema);
+// const Cartt= mongoose.model("Udmi",deepakSchema);
+const Liked= mongoose.model("Liked",deepakSchema);
 const Registration=mongoose.model("Registration",deepakSchema);
 const Saari= mongoose.model("Saari",deepakSchema);
 const Tradinational= mongoose.model("Tradinational",deepakSchema);
 
 app.get("/",async(req,res)=>{
+    // let page=1;
+    // let limit=10;
+    // var multiplection=page*limit;
+    // console.log(multiplection);
     const data=await Deepu.find();
-    // console.log(data);
+    
     const listofData=await Udmi.find();
-    data.forEach(e=>{
-        // console.log(e.desc)
-     })
     let number= listofData.length;    
-    // console.log(listofData);
     if (abcd==true) {
         const Cart=mongoose.model(dd,deepakSchema);
       const listof=await Cart.find();
@@ -104,6 +106,9 @@ app.get("/saari",async(req,res)=>{
 app.get("/checkout",(req,res)=>{
     res.render("checkout");
 })
+app.post("/checkout",(req,res)=>{
+    res.render("checkout");
+})
 app.get("/contact",(req,res)=>{
     res.render("contact");
 })
@@ -146,6 +151,100 @@ app.get("/product",async(req,res)=>{
     const data=await Saari.find();
     res.render("product",{data:data});
 })
+app.post("/cartt/:id",async(req,res)=>{
+//   console.log(req.params.id);
+let id=req.params.id;
+const data0=await Deepu.find();
+const data1=await Saari.find();
+const data2=await Tradinational.find();
+var data=[data0,data1,data2];
+var newdata=data[0];
+var newdata1=data[1];
+var newdata2=data[2];
+const matchdata=await Registration.find();
+
+if (abcd==true) {
+const Cartt=mongoose.model(dd,deepakSchema);
+// const Cart=mongoose.model(dd,deepakSchema);
+const dataNames=mongoose.modelNames();
+dataNames.forEach(e=>{
+    if(dd==e){
+        // console.log("yeeee");
+        newdata.forEach(element=>{
+         if(element.id==id){
+            let id=element.id;
+            let imgsrc=element.imgsrc;
+            let desc=element.desc;
+            let price=element.price;
+             const newone=new Cartt({id,imgsrc,price,desc});
+            //  console.log(element);
+            newone.save();
+         }
+        })
+    }
+res.redirect("/product/:id")
+})
+newdata1.forEach(element=>{
+    if(element.id==id){
+       let id=element.id;
+       let imgsrc=element.imgsrc;
+       let desc=element.desc;
+       let price=element.price;
+       const newone=new Cartt({id,imgsrc,price,desc});
+       //  console.log(element);
+       newone.save();
+    }
+   })
+   
+newdata2.forEach(element=>{
+    if(element.id==id){
+       let id=element.id;
+       let imgsrc=element.imgsrc;
+       let desc=element.desc;
+       let price=element.price;
+       const newone=new Cartt({id,imgsrc,price,desc});
+       //  console.log(element);
+       newone.save();
+    }
+   })
+}else{
+    newdata.forEach(element=>{
+        if(element.id==id){
+           let id=element.id;
+           let imgsrc=element.imgsrc;
+           let desc=element.desc;
+           let price=element.price;
+           const newone=new Liked({id,imgsrc,price,desc});
+           //  console.log(element);
+           newone.save();
+        }
+       })    
+
+    newdata1.forEach(element=>{
+        if(element.id==id){
+           let id=element.id;
+           let imgsrc=element.imgsrc;
+           let desc=element.desc;
+           let price=element.price;
+           const newone=new Liked({id,imgsrc,price,desc});
+           //  console.log(element);
+           newone.save();
+        }
+       })
+    newdata2.forEach(element=>{
+        if(element.id==id){
+           let id=element.id;
+           let imgsrc=element.imgsrc;
+           let desc=element.desc;
+           let price=element.price;
+           const newone=new Liked({id,imgsrc,price,desc});
+           //  console.log(element);
+           newone.save();
+        }
+       })
+}
+
+})
 app.post("/cart/:id",async(req,res)=>{
     // console.log(dd );
      let id=req.params.id;
@@ -177,6 +276,7 @@ app.post("/cart/:id",async(req,res)=>{
              }
             })
         }
+    res.redirect("/product/:id")
     })
     newdata1.forEach(element=>{
         if(element.id==id){
@@ -237,6 +337,7 @@ app.post("/cart/:id",async(req,res)=>{
             }
            })
     }
+    
 })
 app.post("/remover/:id",async(req,res)=>{
     let id=req.params.id;
@@ -328,6 +429,14 @@ app.post("/login",async(req,res)=>{
         res.send("Enter correct User Details")
     }
 })
+// app.get("/showmore",async(req,res)=>{
+//     // var add=req.params.add;
+//     // let limit=10;
+//     // var limitation=add*limit;
+//     const data=await Deepu.find()
+//     let newdata=data.slice(10,20)
+    
+// })
 app.listen(port,()=>{
     console.log(`Connected on ${port}....`);
 })

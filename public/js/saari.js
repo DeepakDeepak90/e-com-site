@@ -3,13 +3,15 @@ function deepak(){
     show.forEach(e=>{
         var id=e.id
                     let showincart=e.imgsrc[0];
-                //       addArr.push(a);  
+                //       addArr.push(a); 
+                let desc=e.desc; 
+
                   let viewInCart=`
                   <div class="cart-item">
                   
                            <img src="${showincart}" class="cart-img"> 
                            <div class="details">
-                               <h5>${e.desc}</h5>
+                               <h5 class="cartdesc">${desc}</h5>
                                 <span class="quantity">Quantity: 1</span>
                                    <span class="price">Price: ${e.price}</span>
                                
@@ -23,8 +25,38 @@ function deepak(){
                                 })
                                 productimage[0].click();
     }
+    function deepakk(){
+        show.forEach(e=>{
+            var id=e.id
+                        let showincart=e.imgsrc[0];
+                    //       addArr.push(a); 
+                    let desc=e.desc; 
+    
+                      let viewInCart=`
+                      <div class="cart-item">
+                      
+                               <img src="${showincart}" class="cart-img"> 
+                               <div class="details">
+                                   <h5 class="cartdesc">${desc}</h5>
+                                    <span class="quantity">Quantity: 1</span>
+                                       <span class="price">Price: ${e.price}</span>
+                                   
+                               </div>
+                               <div class="cancel"><button class="cross-b" onclick="idremove(${id})"><img src="../images/del.png" class="cros" alt=""></button></div>
+                            </div>
+                    <hr>
+                        `
+                        addinme.innerHTML +=viewInCart;
+                        
+                                    })
+                                    // productimage[0].click();
+        }
+    // }
+    deepakk();
 function idremove(id){
 // console.log(id);
 fetch(`/remover/${id}`,{method:"post"});
 window.location.reload();
+// window.location.reload();
 }
+// var add=1;
