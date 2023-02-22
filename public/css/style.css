@@ -7,6 +7,14 @@
 .heartshape{
   width: 31px;
 }
+.editme{
+  padding: 5px 8px;
+  border: none;
+  background-color: rgb(196, 61, 61);
+  color: white;
+  display: block;
+  margin: 4% auto;
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -665,7 +673,7 @@ opacity: 0.6;
   }
   .size-radio-btn {
     display: inline-block;
-    width: 46px;
+    width: 52px;
     height: 61px;
     text-align: center;
     font-size: 15px;

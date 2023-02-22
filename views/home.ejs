@@ -214,25 +214,32 @@
 
 
 
-
-    <div class="container  ">
-  <%data.forEach((element)=> {%>
-  <div class="outdoor  mx-2 mt-5 ">
-      <div class="img" >
-      <img src="<%=element.imgsrc[0]%>" onclick="singleProduct('<%=element.id%>')" alt="">
-      </div>
-      <div class="titel">
-       <h5 class="imgtitel"><%=element.desc%></h5>
-      </div>
-      <div class="price">
-        Price : <%=element.price%> Rs
-      </div>
-      
-  </div>
-  <%})%>        
+    
+    <div class="container  " id="dd">
+      <%data1.forEach(e=>{%>
+     
+      <div class="outdoor  mx-2 mt-5 ">
+        <div class="img" >
+        <img src="<%=e.imgsrc[0]%>" onclick="singleProduct('<%=e.id%>')" alt="">
+        </div>
+        <div class="titel">
+         <h5 class="imgtitel"><%=e.desc%></h5>
+        </div>
+        <div class="price">
+          Price :<%=e.price%>  Rs
+        </div>
+        
+    </div>
+    
+      <%})%>
+    
+           
 </div>
-<!-- <button onclick="increement()">Show More</button> -->
-    <!-- <div class="collection-of-img">
+<button class="editme" type="submit" onclick="getData()">
+  Show More
+</button>
+<!-- <button onclick="increement()">Show More</button>
+     <div class="collection-of-img"> 
     <div class="women-collection">
           <h2 class="women-heading">Women</h2>
           <a href=""><img src="/images/navbefoo.jpg" alt="" class="women-img"></a>
@@ -263,33 +270,59 @@
   </footer>
 </div>
     <script>
-       
+    
+    // html += "<div class='outdoor  mx-2 mt-5 '>";
+    //   html +="<div class='img' >"
+    //   html += "<img src=" +data[a].imgsrc[0] +"onclick=singleProduct"+(data[a].id)+" alt=''>";
+    //    html +="</div>";
+    //    html +="<div class='titel'>";
+    //     html += "<h5 class='imgtitel'>"+data[a].desc+"</h5>";
+    //     html +="</div>";
+    //     html +="<div class='price'>";
+    //       html +="Price : "+data[a].price+ "Rs"
+    //       html +="</div>";
+      
+    //       html +="</div>"
+  
+               
     var show=<%-JSON.stringify(list)%>;
-    // var show1=<%-JSON.stringify(data)%>;
+    var show1=<%-JSON.stringify(data)%>;
     
    
-    // var number=<%-JSON.stringify(number)%>
+    var number=<%-JSON.stringify(number)%>;
+    var sizee=<%-JSON.stringify(size)%>;
     // console.log(a);
-    // function increement(){
-    //  let sliceone=document.getElementById("container");
-    //  let addmore=slicedata.slice(10,20);
-    //  addmore.forEach(e => {
-    //   sliceone.innerHTML +=`
-    //    <div class="outdoor  mx-2 mt-5 ">
-    //     <div class="img" >
-    //     <img src="${e.imgsrc[0]}" onclick="singleProduct(${e.id})" alt="">
-    //     </div>
-    //     <div class="titel">
-    //      <h5 class="imgtitel">${e.desc}</h5>
-    //     </div>
-    //     <div class="price">
-    //       Price :${e.price}  Rs
-    //     </div>
-        
-    // </div>
-    //    ` 
-    //  });
-    //  }
+    var inc=10;
+
+    function getData(){
+      inc= inc +10;
+      if(inc>=sizee){
+
+      }else{
+        let sliceone=document.getElementById("dd");
+        let addmore=show1.slice(10,inc);
+
+        addmore.forEach(e => {
+         sliceone.innerHTML +=`
+          <div class="outdoor  mx-2 mt-5 ">
+           <div class="img" >
+           <img src="${e.imgsrc[0]}" onclick="singleProduct(${e.id})" alt="">
+           </div>
+           <div class="titel">
+            <h5 class="imgtitel">${e.desc}</h5>
+           </div>
+           <div class="price">
+             Price :${e.price}  Rs
+           </div>
+           
+       </div>
+       
+          ` 
+        });
+        }
+      }
+      
+      // alert()
     </script>
      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>

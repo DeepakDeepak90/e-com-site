@@ -1,6 +1,7 @@
 var namefilter;
 let dd;
 var abcd=false;
+
 const express=require("express");
 const ejs=require("ejs");
 const path=require("path");
@@ -44,7 +45,9 @@ app.get("/",async(req,res)=>{
     // var multiplection=page*limit;
     // console.log(multiplection);
     const data=await Deepu.find();
-    
+    const size=data.length;
+
+    const data1=data.slice(0,10);
     const listofData=await Udmi.find();
     let number= listofData.length;    
     if (abcd==true) {
@@ -55,9 +58,10 @@ app.get("/",async(req,res)=>{
       res.render("home",{number,data:data,list:listof,abcd});
       
   }else{
-  res.render("home",{data:data,list:listofData,number,abcd});
+  res.render("home",{data:data,data1,list:listofData,number,abcd,size});
   }
 })
+
 app.get("/user",(req,res)=>{
 
     // var deepak="deepak";
