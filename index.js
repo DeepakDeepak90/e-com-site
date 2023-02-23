@@ -36,8 +36,8 @@ const Udmi= mongoose.model("Udmi",deepakSchema);
 // const Cartt= mongoose.model("Udmi",deepakSchema);
 const Liked= mongoose.model("Liked",deepakSchema);
 const Registration=mongoose.model("Registration",deepakSchema);
-const Saari= mongoose.model("Saari",deepakSchema);
-const Tradinational= mongoose.model("Tradinational",deepakSchema);
+// const Saari= mongoose.model("Saari",deepakSchema);
+// const Tradinational= mongoose.model("Tradinational",deepakSchema);
 
 app.get("/",async(req,res)=>{
     // let page=1;
@@ -73,40 +73,40 @@ app.get("/login",(req,res)=>{
 
     res.render("login",{abcd});
 })
-app.get("/tradinational",async(req,res)=>{
-    const data=await Tradinational.find();
-    const listofData=await Udmi.find();
-    let number= listofData.length;
-    // console.log(data);
-    if (abcd==true) {
-        const Cart=mongoose.model(dd,deepakSchema);
-      const listof=await Cart.find();
-      let number= listof.length;
-    //   res.render("saari",{number,data:data,list:listofData});
-      res.render("tradinational",{abcd,number,data:data,list:listof});
+// app.get("/tradinational",async(req,res)=>{
+//     const data=await Tradinational.find();
+//     const listofData=await Udmi.find();
+//     let number= listofData.length;
+//     // console.log(data);
+//     if (abcd==true) {
+//         const Cart=mongoose.model(dd,deepakSchema);
+//       const listof=await Cart.find();
+//       let number= listof.length;
+//     //   res.render("saari",{number,data:data,list:listofData});
+//       res.render("tradinational",{abcd,number,data:data,list:listof});
       
-  }else{
-//   res.render("saari",{number,data:data,list:listofData});
-  res.render("tradinational",{abcd,number,data:data,list:listofData});
-  }
-})
-app.get("/saari",async(req,res)=>{
+//   }else{
+// //   res.render("saari",{number,data:data,list:listofData});
+//   res.render("tradinational",{abcd,number,data:data,list:listofData});
+//   }
+// })
+// app.get("/saari",async(req,res)=>{
     
-    // console.log(abcd);
-    const data=await Saari.find();
-    const listofData=await Udmi.find();
-    let number= listofData.length;
-    // console.log(dd);
-    if (abcd==true) {
-          const Cart=mongoose.model(dd,deepakSchema);
-        const listof=await Cart.find();
-        let number= listof.length;
-        res.render("saari",{abcd,number,data:data,list:listof});
+//     // console.log(abcd);
+//     const data=await Saari.find();
+//     const listofData=await Udmi.find();
+//     let number= listofData.length;
+//     // console.log(dd);
+//     if (abcd==true) {
+//           const Cart=mongoose.model(dd,deepakSchema);
+//         const listof=await Cart.find();
+//         let number= listof.length;
+//         res.render("saari",{abcd,number,data:data,list:listof});
         
-    }else{
-    res.render("saari",{abcd,number,data:data,list:listofData});
-    }
-})
+//     }else{
+//     res.render("saari",{abcd,number,data:data,list:listofData});
+//     }
+// })
 app.get("/checkout",(req,res)=>{
     res.render("checkout");
 })
@@ -433,14 +433,6 @@ app.post("/login",async(req,res)=>{
         res.send("Enter correct User Details")
     }
 })
-// app.get("/showmore",async(req,res)=>{
-//     // var add=req.params.add;
-//     // let limit=10;
-//     // var limitation=add*limit;
-//     const data=await Deepu.find()
-//     let newdata=data.slice(10,20)
-    
-// })
 app.listen(port,()=>{
     console.log(`Connected on ${port}....`);
 })
